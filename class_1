@@ -1,0 +1,7 @@
+#!/bin/bash
+for item in apple banana cherry mango orange
+do
+     if ["$item"=="cherry"]; then continue # skip "cherry" and move to the next iteration 
+      fi 
+echo"Fruit: $item"
+done
